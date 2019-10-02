@@ -1,0 +1,77 @@
+.header {
+    width: 100%;
+    margin: 0;
+    height: 27.5rem;
+}
+
+.first {
+    width: 70%;
+    height: 27.5rem;
+    position: relative;
+    float: left;
+    z-index: 0;
+    background-image: url(../images/img-1.png);
+}
+
+.second {
+    height: 27.5rem;
+    width: 30%;
+    position: relative;
+    float: left;
+    &__text {
+        color: black;
+        text-align: left;
+        font-family: 'PT Mono', monospace;
+        font-weight: 400;
+        font-size: 4.5rem;
+        position: absolute;
+        left: 6rem;
+        top: 2rem;
+    }
+    &__subt {
+        color: black;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.25rem;
+        position: absolute;
+        left: 6rem;
+        top: 13rem;
+    }
+}
+
+.cuadYellow {
+    background-color: #EACB31;
+    width: 8.4375rem;
+    height: 8.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.cuadOrange {
+    background-color: #E4572E;
+    width: 8.4375rem;
+    height: 8.5rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: -1rem;
+    &__arrow {
+        color: white;
+        position: absolute;
+        top: 2.5rem;
+        left: 2.5rem;
+    }
+}
+
+.cuadWhite {
+    background-color: white;
+    width: 29.3125rem;
+    height: 8.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    &__valor1 {
+        font-family: 'PT Mono', monospace;
+    }
+}
